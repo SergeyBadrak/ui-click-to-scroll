@@ -25,10 +25,9 @@ https://artium.com.ua/projects/UI-PageLoader/demo/
 <script src="js/ui-click-to-scroll/ui-click-to-scroll.js"></script>
 ```    
 <p></p>
-
-```html
 <h2>How to use</h2>
 
+```html
 <pre>
     <a href="#item1" class="click-to-scroll"> LINK 1 </a>
 </pre>
