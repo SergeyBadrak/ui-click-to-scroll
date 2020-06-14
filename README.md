@@ -34,3 +34,4 @@ Add "click-to-scroll" class to elements
 ```HTML 
 <section id="item1">...</section>
 ``` 
+[GitHub Pages](https://pages.github.com/)
