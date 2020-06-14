@@ -29,9 +29,8 @@ https://artium.com.ua/projects/UI-PageLoader/demo/
 <h2>How to use</h2>
 Add "click-to-scroll" class to elements
 ```HTML 
+<a href="#item1" class="click-to-scroll"> LINK 1 </a>
+```
+```HTML 
 <section id="item1">...</section>
-```   
-
-    
-
-
+``` 
