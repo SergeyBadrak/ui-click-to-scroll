@@ -3,7 +3,7 @@ scroll page to desired page item
 
 
 <h4>Demo</h4> 
-https://artium.com.ua/projects/UI-PageLoader/demo/
+https://artium.com.ua/projects/ui-click-to-scroll/
 
 
 <h2>Requirements: </h2>
