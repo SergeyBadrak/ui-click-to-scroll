@@ -1,7 +1,5 @@
 # ui-click-to-scroll
-
-# UI-PageLoader
-Show HTML content after page (or part of page) loaded
+scroll page to desired page item
 
 
 <h4>Demo</h4> 
@@ -31,8 +29,6 @@ https://artium.com.ua/projects/UI-PageLoader/demo/
 <h2>How to use</h2>
 Add "click-to-scroll" class to elements
 ```HTML 
-<a href="#item1" class="click-to-scroll"> LINK 1 </a>
-
 <section id="item1">...</section>
 ```   
 
