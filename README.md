@@ -50,3 +50,10 @@ Add "click-to-scroll" class to elements
     </div>
 </pre>
 ```
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <a href="#item1" class="click-to-scroll"> LINK 1 </a>
+</pre>
+```
