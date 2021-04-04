@@ -11,6 +11,19 @@
     <link href="js/ui-menu-languages/ui-menu-languages.css" rel="stylesheet" type="text/css">
     <link href="js/ui-menu-fullpage/ui-menu-fullpage.css" rel="stylesheet" type="text/css">
 
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+           justify-content: space-between;
+        }
+        ul li {
+            /* display: inline-block; */
+        }
+    </style>
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -20,6 +33,13 @@
     <div class="toolbar" style="padding: 30px 0;">
 
         <div class="container">
+
+            <div class="row">
+                <div class="col-12 mb-5 text-center">
+                    <h5>Direct link with 'a' tag</h5>
+                    <h6>a href="#item1" </h6>
+            </div></div>
+
             <div class="row align-items-center justify-content-between text-center">
 
                 <a href="#item1" class="btn btn-primary click-to-scroll"> LINK 1 </a>
@@ -27,8 +47,26 @@
                 <a href="#item3" class="btn btn-primary click-to-scroll"> LINK 3 </a>
                 <a href="#item4" class="btn btn-primary click-to-scroll"> LINK 4 </a>
 
-
             </div>
+
+            <div class="row">
+                <div class="col-12 my-5 text-center">
+                    <h5>WordPress menu structure: link with 'li' and child 'a' tag</h5>
+                    <h6>li class="click-to-scroll" a href="#item1" </h6>
+                </div></div>
+            <div class="row">
+                <div class="col-12 p-0">
+
+                    <ul>
+                        <li class="click-to-scroll"><a href="#item1" class="btn btn-primary"> LINK 1 </a></li>
+                        <li class="click-to-scroll"><a href="#item2" class="btn btn-primary"> LINK 2 </a></li>
+                        <li class="click-to-scroll"><a href="#item3" class="btn btn-primary"> LINK 3 </a></li>
+                        <li class="click-to-scroll"><a href="#item4" class="btn btn-primary"> LINK 4 </a></li>
+                    </ul>
+
+                </div>
+            </div>
+
         </div>
 
     </div>
